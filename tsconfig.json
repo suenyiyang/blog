@@ -3,10 +3,10 @@
     "module": "ESNext",
     "target": "ESNext",
     "strict": true,
-    "rootDir": "./docs/.vitepress/",
     "jsx": "preserve",
     "moduleResolution": "node",
     "skipLibCheck": true,
     "esModuleInterop": true
-  }
+  },
+  "include": ["./docs/.vitepress/*.ts"]
 }
