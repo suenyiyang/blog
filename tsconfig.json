@@ -3,7 +3,7 @@
     "module": "ESNext",
     "target": "ESNext",
     "strict": true,
-    "rootDir": "./",
+    "rootDir": "./docs/.vitepress/",
     "jsx": "preserve",
     "moduleResolution": "node",
     "skipLibCheck": true,
