@@ -1,14 +1,14 @@
 {
   "private": true,
-  "type": "module",
   "scripts": {
-    "theme": "cd docs/.vitepress && git clone git@github.com:syy11cn/vitepress-theme-linear.git && ln -s vitepress-theme-linear/src theme",
-    "docs:dev": "vitepress dev docs"
+    "theme": "cd docs/.vitepress/ && rm -rf theme && ln -s ../../node_modules/vitepress-theme-linear/src theme && cd ../../",
+    "dev": "npm run theme && vitepress dev docs",
+    "build": "npm run theme && vitepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.6.3",
     "vitepress": "^0.22.3",
-    "vitepress-theme-linear": "^0.0.0"
+    "vitepress-theme-linear": "^0.0.1"
   }
 }
