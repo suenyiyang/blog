@@ -4,6 +4,8 @@ import { ThemeLinearConfig, getPosts } from './theme/config'
 
 async function load() {
   return defineConfigWithTheme<ThemeLinearConfig>({
+    title: 'Yiyang Sun',
+    description: 'Love for life and frontend tech.',
     themeConfig: {
       posts: await getPosts('en-US', 'Asia/Shanghai'),
       links: [
