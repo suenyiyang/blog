@@ -9,6 +9,6 @@
   "devDependencies": {
     "typescript": "^4.6.3",
     "vitepress": "^0.22.3",
-    "vitepress-theme-linear": "^0.0.3"
+    "vitepress-theme-linear": "^0.0.4"
   }
 }
