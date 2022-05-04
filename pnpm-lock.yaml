@@ -3,12 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   typescript: ^4.6.3
   vitepress: ^0.22.3
-  vitepress-theme-linear: ^0.0.2
+  vitepress-theme-linear: ^0.0.3
 
 devDependencies:
   typescript: 4.6.3
   vitepress: 0.22.3
-  vitepress-theme-linear: 0.0.2_typescript@4.6.3
+  vitepress-theme-linear: 0.0.3_typescript@4.6.3
 
 packages:
 
@@ -272,6 +272,12 @@ packages:
 
   /@vue/shared/3.2.33:
     resolution: {integrity: sha512-UBc1Pg1T3yZ97vsA2ueER0F6GbJebLHYlEi4ou1H5YL4KWvMOOWwpYo9/QpWq93wxKG6Wo13IY74Hcn/f7c7Bg==}
+    dev: true
+
+  /@vueuse/head/0.7.6:
+    resolution: {integrity: sha512-cOWqCkT3WiF5oEpw+VVEWUJd9RLD5rc7DmnFp3cePsejp+t7686uKD9Z9ZU7Twb7R/BI8iexKTmXo9D/F3v6UA==}
+    peerDependencies:
+      vue: '>=3'
     dev: true
 
   /algoliasearch/4.13.0:
@@ -862,15 +868,18 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress-theme-linear/0.0.2_typescript@4.6.3:
-    resolution: {integrity: sha512-VI5DKuFdsJnpUx36WmUfRab4TZcKDOZrT6zwVsfcKiIkx3aKAZs68jBplQYJK4FnnUL73UtXtzy+8X9hrohx+Q==}
+  /vitepress-theme-linear/0.0.3_typescript@4.6.3:
+    resolution: {integrity: sha512-+9XhrF//tqZ+6vMvvZKaV9N04gpCppJeuWJQueRxTaghbr0SGgs9TktiLtFAsLWI21k2xOY3JjcsooyKtEb0cg==}
     peerDependencies:
       typescript: ^4.6.3
     dependencies:
+      '@vueuse/head': 0.7.6
       fs-extra: 10.1.0
       globby: 11.0.4
       gray-matter: 4.0.3
       typescript: 4.6.3
+    transitivePeerDependencies:
+      - vue
     dev: true
 
   /vitepress/0.22.3:
