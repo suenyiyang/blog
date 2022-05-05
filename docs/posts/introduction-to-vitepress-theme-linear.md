@@ -1,5 +1,5 @@
 ---
-title: Hello World from Vitepress Theme Linear
+title: Hello World from VitePress Theme Linear
 keywords:
   - vitepress
   - blog
@@ -7,11 +7,11 @@ keywords:
   - linear
 ---
 
-# Hello World from Vitepress Theme Linear
+# Hello World from VitePress Theme Linear
 
 ## Introduction
 
-A dream theme for vitepress blogs.
+A dream theme for VitePress blogs.
 
 ## Usage
 
@@ -96,7 +96,7 @@ npm run dev
 
 ## Acknowledgement
 
-Design inspired by [Evan You's Blog](https://blog.evanyou.me/) and [Anthony Fu's Blog](https://antfu.me/).
+Design inspired by [Evan's](https://blog.evanyou.me/) and [Anthony's](https://antfu.me/) blogs.
 
 ## License
 
