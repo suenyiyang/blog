@@ -13,7 +13,8 @@ async function load() {
         { name: 'Posts', link: '/posts', icon: '/assets/images/post.svg' },
         { name: 'Links', link: '/links', icon: '/assets/images/link.svg' },
       ],
-      favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg'
+      favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
+      googleId: 'G-F3PB7TDT3P'
     }
   })
 }
