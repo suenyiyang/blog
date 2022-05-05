@@ -1,5 +1,6 @@
 ---
 title: Switch from Hexo to VitePress
+date: 2022-05-05
 ---
 
 # Switch from Hexo to VitePress
