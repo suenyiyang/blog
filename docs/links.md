@@ -23,7 +23,7 @@ title: Links
 
 ## Blogger
 
-- [Ziyang](https://www.t6t.xyz/) - Talented boy in ML and backend;
+- [Ziyang](https://t6t.xyz/) - Talented boy in ML and backend;
 - [Yuki](https://yukiyousa.cn/) - Big gun in frontend and ML;
 - [Yang](https://jason-xy.cn/) - Full stack big shot;
 - [Youqi](https://su29029.github.io/) - Full stack ace;
