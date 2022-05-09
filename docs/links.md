@@ -38,6 +38,7 @@ title: Links
 - [FE LeBron](https://www.lebronchao.com/) - Fan of Lebron, frontend big gun;
 - [codeDogs](https://blog.codedogs.top/) - Frontend explorer;
 - [Ruixuan](https://i-have-no-name-555.github.io/) - Expert in backend, mastering Java and Golang;
+- [Evan](https://xugaoyi.com/) - Author of `vuepress-theme-vdoing`;
 
 ## My Information
 
