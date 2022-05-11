@@ -1,9 +1,9 @@
 ---
-title: Difference between useAtom and useState
+title: Difference between `useAtom` and `useState`
 date: 2022-05-10
 ---
 
-# Difference between useAtom and useState
+# Difference between `useAtom` and `useState`
 
 ## Similarity
 
