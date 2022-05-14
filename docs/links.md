@@ -29,7 +29,6 @@ title: Links
 - [Youqi](https://su29029.github.io/) - Full stack ace;
 - [Darren](https://darren-dong.com/) - Talented boy in ML and frontend;
 - [Chengjin](https://crazyhugh.github.io/) - Boy with high IQ and EQ;
-- [Shenghao](http://wushenghao.cn/) - Partner in Bytedance summer camp;
 - [Gemini](https://geminiplanet.cn/) - Backend big gun;
 - [Arthur](http://arthurwy.top/) - Expert in game engine;
 - [Sitong](https://originlaboratory.github.io/) - Talented backend developer;
