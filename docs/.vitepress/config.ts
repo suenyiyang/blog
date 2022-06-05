@@ -6,6 +6,12 @@ async function load() {
   return defineConfigWithTheme<ThemeLinearConfig>({
     title: 'Yiyang Sun',
     description: 'Love for life and frontend tech.',
+    markdown: {
+      theme: {
+        light: 'css-variables',
+        dark: 'css-variables'
+      },
+    },
     themeConfig: {
       posts: await getPosts('en-US', 'Asia/Shanghai'),
       links: [
@@ -15,7 +21,7 @@ async function load() {
         { name: 'Resume', link: '/resume', icon: '/assets/images/resume.svg' },
       ],
       favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
-      googleId: 'G-F3PB7TDT3P'
+      googleId: 'G-F3PB7TDT3P',
     }
   })
 }
