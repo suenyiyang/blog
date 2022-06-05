@@ -3,12 +3,12 @@ lockfileVersion: 5.3
 specifiers:
   typescript: ^4.6.3
   vitepress: ^1.0.0-alpha.1
-  vitepress-theme-linear: ^0.0.7
+  vitepress-theme-linear: latest
 
 devDependencies:
   typescript: 4.6.3
   vitepress: 1.0.0-alpha.1
-  vitepress-theme-linear: 0.0.7_typescript@4.6.3
+  vitepress-theme-linear: 0.0.9_typescript@4.6.3
 
 packages:
 
@@ -587,7 +587,7 @@ packages:
     dev: true
 
   /extend-shallow/2.0.1:
-    resolution: {integrity: sha1-Ua99YUrZqfYQ6huvu5idaxxWiQ8=}
+    resolution: {integrity: sha512-zCnTtlxNoAiDc3gqY2aYAWFx7XWWiasuF2K8Me5WbN8otHKTUKBwjPtNpRs/rbUZm7KxWAaNj7P1a/p52GbVug==}
     engines: {node: '>=0.10.0'}
     dependencies:
       is-extendable: 0.1.1
@@ -690,12 +690,12 @@ packages:
     dev: true
 
   /is-extendable/0.1.1:
-    resolution: {integrity: sha1-YrEQ4omkcUGOPsNqYX1HLjAd/Ik=}
+    resolution: {integrity: sha512-5BMULNob1vgFX6EjQw5izWDxrecWK9AM72rugNr0TFldMOi0fj6Jk+zeKIt0xGj4cEfQIJth4w3OKWOJ4f+AFw==}
     engines: {node: '>=0.10.0'}
     dev: true
 
   /is-extglob/2.1.1:
-    resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=}
+    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -930,8 +930,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress-theme-linear/0.0.7_typescript@4.6.3:
-    resolution: {integrity: sha512-dcFDc2Lpc9AEx+NVOCPBwCcdgzwjUoT1FIkIG3zpOz0gGlA9yRZ81FbMDtFM6WfJxAiJXJbhQBRrff27A1J7Ow==}
+  /vitepress-theme-linear/0.0.9_typescript@4.6.3:
+    resolution: {integrity: sha512-IITew4JkXn+FTLyWXGMyZAOQRmrrYF2sADR+r0fwRDmLoYjnmL7smqrb/zFYFFJNWpilIDUc1naQIpmvdzlqPg==}
     peerDependencies:
       typescript: ^4.6.3
     dependencies:
