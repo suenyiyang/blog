@@ -8,7 +8,7 @@ specifiers:
 devDependencies:
   typescript: 4.6.3
   vitepress: 1.0.0-alpha.1
-  vitepress-theme-linear: 0.0.9_typescript@4.6.3
+  vitepress-theme-linear: 0.0.10_typescript@4.6.3
 
 packages:
 
@@ -930,8 +930,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress-theme-linear/0.0.9_typescript@4.6.3:
-    resolution: {integrity: sha512-IITew4JkXn+FTLyWXGMyZAOQRmrrYF2sADR+r0fwRDmLoYjnmL7smqrb/zFYFFJNWpilIDUc1naQIpmvdzlqPg==}
+  /vitepress-theme-linear/0.0.10_typescript@4.6.3:
+    resolution: {integrity: sha512-ORHt5zqPFERTpp/amq2C5VshTIc/RjrauOxhLfG5uMsxU7wwtZeZU9NNbcWM95L0LAeos2eHAMoj1Ovh/diL2g==}
     peerDependencies:
       typescript: ^4.6.3
     dependencies:
