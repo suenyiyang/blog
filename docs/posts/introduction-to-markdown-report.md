@@ -37,7 +37,25 @@ lang: zh
 
 ## Feature List
 
-接下来进入自卖自夸 part。
+> 自卖自夸。
 
+- 支持自动生成页眉、页码；
+- 支持自动生成目录；
 - 最多支持 6 级标题；
-- 支持行内代码（目前使用 `Mon）
+- 支持行内代码和代码块（目前西文使用 `Monaco` 字体，中文使用 `楷体`）；
+- 支持公式块；
+- 支持本地图片；
+- 支持表格；
+- 支持无序/有序列表；
+
+## 使用说明书
+
+请参考 [GitHub README](https://github.com/syy11cn/md-report#basic-usage)。
+
+如需绘制 UML，推荐使用 [Draw.io](https://app.diagrams.net)。
+
+## Future Feature
+
+- 样式支持定制；
+- 支持行内公式；
+- ……
