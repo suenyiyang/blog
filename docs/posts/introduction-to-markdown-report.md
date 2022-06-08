@@ -59,3 +59,7 @@ lang: zh
 - 样式支持定制；
 - 支持行内公式；
 - ……
+
+## 使用问题及改进建议
+
+[Issue](https://github.com/syy11cn/md-report/issues) or [PR](https://github.com/syy11cn/md-report/pulls) welcome!
