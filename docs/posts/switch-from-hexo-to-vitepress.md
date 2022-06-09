@@ -35,3 +35,9 @@ To each his own. I personally prefer VitePress rather than Hexo now. You can cho
 
 - [Hexo theme linear](https://github.com/syy11cn/hexo-theme-linear);
 - [VitePress theme linear](https://github.com/syy11cn/vitepress-theme-linear).
+
+---
+
+## Updates
+
+- Upgrade dev dependency VitePress to `1.0-beta`.
