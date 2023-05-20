@@ -16,10 +16,11 @@ async function load() {
     themeConfig: {
       posts: await getPosts('zh-CN', 'Asia/Shanghai'),
       links: [
-        { name: 'GitHub', link: 'https://github.com/syy11cn', icon: '/assets/images/github.svg' },
-        { name: 'Posts', link: '/posts', icon: '/assets/images/post.svg' },
-        { name: 'Links', link: '/links', icon: '/assets/images/link.svg' },
-        { name: 'Resume', link: '/resume', icon: '/assets/images/resume.svg' },
+        { name: 'Posts', link: '/posts', icon: '' },
+        { name: 'GitHub', link: 'https://github.com/syy11cn', icon: '' },
+        { name: 'Twitter', link: 'https://twitter.com/syy11cn', icon: '' },
+        { name: 'Links', link: '/links', icon: '' },
+        { name: 'Resume', link: '/resume', icon: '' },
       ],
       favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
       googleId: 'G-F3PB7TDT3P',
