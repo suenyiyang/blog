@@ -8,6 +8,6 @@
   "devDependencies": {
     "typescript": "^4.6.3",
     "vitepress": "1.0.0-alpha.76",
-    "vitepress-theme-linear": "latest"
+    "vitepress-theme-linear": "^0.1.5"
   }
 }
