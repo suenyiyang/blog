@@ -1,5 +1,4 @@
 node_modules
 dist
-theme
 **/.vitepress/cache
 .DS_Store
