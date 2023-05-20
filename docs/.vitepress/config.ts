@@ -1,5 +1,5 @@
 import { defineConfigWithTheme } from 'vitepress'
-import { ThemeLinearConfig, getPosts } from './theme/config'
+import { ThemeLinearConfig, getPosts } from 'vitepress-theme-linear/config'
 
 
 async function load() {
@@ -8,12 +8,13 @@ async function load() {
     description: 'Love for life and frontend tech.',
     markdown: {
       theme: {
-        light: 'css-variables',
-        dark: 'css-variables'
+        light: 'github-light',
+        dark: 'github-dark'
       },
     },
+    cleanUrls: true,
     themeConfig: {
-      posts: await getPosts('en-US', 'Asia/Shanghai'),
+      posts: await getPosts('zh-CN', 'Asia/Shanghai'),
       links: [
         { name: 'GitHub', link: 'https://github.com/syy11cn', icon: '/assets/images/github.svg' },
         { name: 'Posts', link: '/posts', icon: '/assets/images/post.svg' },
@@ -22,6 +23,7 @@ async function load() {
       ],
       favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
       googleId: 'G-F3PB7TDT3P',
+      walineServerURL: 'https://blog-comment-syy11cn.vercel.app/'
     }
   })
 }

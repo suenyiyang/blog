@@ -1,14 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "theme": "cd docs/.vitepress/ && rm -rf theme && ln -s ../../node_modules/vitepress-theme-linear/src theme && cd ../../",
-    "dev": "npm run theme && vitepress dev docs",
-    "build": "npm run theme && vitepress build docs"
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs"
   },
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.6.3",
-    "vitepress": "^1.0.0-alpha.1",
-    "vitepress-theme-linear": "^0.0.10"
+    "vitepress": "1.0.0-alpha.76",
+    "vitepress-theme-linear": "^0.1.3"
   }
 }
