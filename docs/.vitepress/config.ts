@@ -17,8 +17,8 @@ async function load() {
       posts: await getPosts('zh-CN', 'Asia/Shanghai'),
       links: [
         { name: 'Posts', link: '/posts', icon: '' },
-        { name: 'GitHub', link: 'https://github.com/syy11cn', icon: '' },
-        { name: 'Twitter', link: 'https://twitter.com/syy11cn', icon: '' },
+        { name: '出闲置', link: '/sell/', icon: '' },
+        { name: 'Tweets', link: '/tweets', icon: '' },
         { name: 'Links', link: '/links', icon: '' },
         { name: 'Resume', link: '/resume', icon: '' },
       ],
