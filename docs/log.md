@@ -8,3 +8,4 @@ comments: false
 - **2023.06.04**
   - 购入新域名 yysuen.me
   - 更新友链
+  - 添加 logo
