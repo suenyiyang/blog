@@ -4,7 +4,7 @@ import { ThemeLinearConfig, getPosts } from 'vitepress-theme-linear/config'
 
 async function load() {
   return defineConfigWithTheme<ThemeLinearConfig>({
-    title: 'Yiyang Sun',
+    title: '孙轶扬的博客（Yiyang Suen\'s Blog）',
     description: 'Love for life and frontend tech.',
     markdown: {
       theme: {
@@ -16,10 +16,11 @@ async function load() {
     themeConfig: {
       posts: await getPosts('zh-CN', 'Asia/Shanghai'),
       links: [
-        { name: 'Posts', link: '/posts', icon: '' },
-        { name: 'Tweets', link: '/tweets', icon: '' },
-        { name: 'Links', link: '/links', icon: '' },
-        { name: 'Resume', link: '/resume', icon: '' },
+        { name: '文章', link: '/posts', icon: '' },
+        { name: '推文', link: '/tweets', icon: '' },
+        { name: '友联', link: '/links', icon: '' },
+        { name: '关于我', link: '/about', icon: '' },
+        { name: '更新日志', link: '/log', icon: '' },
       ],
       favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
       googleId: 'G-F3PB7TDT3P',

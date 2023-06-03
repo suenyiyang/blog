@@ -1,50 +1,27 @@
 ---
-title: Links
+title: 友联
 ---
 
-## Organization
+# 友联
 
-> My appreciation to loved orgs.
+## 技术大佬
 
-- [Zeqi Studio](https://zeqi.tech/);
-- [Blog of Zeqi Studio](https://blog.zeqi.tech/);
-- [GitHub Org of UESTC](https://github.com/uestcer);
+- [薇拉航线🌺](https://www.zuozuovera.com/) - 博客启蒙
+- [Xunzhuo`s Blog](http://www.liuxunzhuo.com/) - Envoy 开源组国服大佬
+- [RufusのBlog](https://t6t.xyz/) - 天才少年
+- [Yuki`s blog](https://yukiyousa.cn/) - 前端转机器学习的羽毛球运动员
+- [The Road of Full Stack](https://jason-xy.cn/) - 全栈追梦人
+- [飞鸟小站](https://lzxjack.top/) - 独立开发博客前后端
+- [LeBronChao's Blog](https://www.lebronchao.com/) - 前端大佬
+- [Evan's blog](https://xugaoyi.com/) - `vuepress-theme-vdoing` 作者
 
-## Mentor
-
-> Thank you for guiding me in the dark.
-
-- [Anthony](https://antfu.me/) - Dream life style of all programmers.
-- [Vera](https://www.zuozuovera.com/) - Blog mentor;
-- [Xunzhuo](https://www.xunzhuotalk.com/) - Open source pioneer;
-- [Hanlin](https://runtus.top/) - Frontend Mr. Big;
-- [Yaojie](https://acherstyx.github.io/) - ML ace;
-- [Fenghua](https://zxuqian.cn/) - Frontend pioneer;
-- [Ruize](https://sharifxu.top/) - Hotshot of frontend and ML tech;
-
-## Blogger
-
-- [Ziyang](https://t6t.xyz/) - Talented boy in ML and backend;
-- [Yuki](https://yukiyousa.cn/) - Big gun in frontend and ML;
-- [Yang](https://jason-xy.cn/) - Full stack big shot;
-- [Darren](https://darren-dong.com/) - Talented boy in ML and frontend;
-- [Gemini](https://geminiplanet.cn/) - Backend big gun;
-- [Xinyue](https://cosmos-uestc.space/) - Big shot in frontend and cyber security;
-- [Flappy Bird](https://lzxjack.top/) - Develop the blog himself;
-- [FE LeBron](https://www.lebronchao.com/) - Fan of LeBron, frontend big gun;
-- [codeDogs](https://blog.codedogs.top/) - Frontend explorer;
-- [Ruixuan](https://i-have-no-name-555.github.io/) - Expert in backend, mastering Java and Golang;
-- [Evan](https://xugaoyi.com/) - Author of `vuepress-theme-vdoing`;
-
-## My Information
+## 我的信息
 
 ```js
-const myBlog = {
-  name: 'Yiyang Sun',
-  link: 'https://blog.syy11.cn',
+const blog = {
+  name: '孙轶扬的博客',
+  link: 'https://yysuen.cn',
   avatar: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
-  description: 'Frontend enthusiast.'
+  description: '前端爱好者'
 }
 ```
-
-> [Mail to me](mailto:syy11cn@outlook.com) for adding your link.
