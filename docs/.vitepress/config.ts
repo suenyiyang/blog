@@ -24,7 +24,7 @@ async function load() {
       ],
       favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
       googleId: 'G-F3PB7TDT3P',
-      walineServerURL: 'https://blog-comment-syy11cn.vercel.app/'
+      walineServerURL: 'https://blog-comment-yysuen.vercel.app/'
     }
   })
 }
