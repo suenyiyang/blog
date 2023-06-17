@@ -22,7 +22,7 @@ async function load() {
         { name: '关于我', link: '/about', icon: '' },
         { name: '更新日志', link: '/log', icon: '' },
       ],
-      favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
+      favicon: '/favicon.svg',
       googleId: 'G-F3PB7TDT3P',
       waline: {
         serverURL: 'https://blog-comment-yysuen.vercel.app/',
