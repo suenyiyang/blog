@@ -3,12 +3,12 @@ lockfileVersion: 5.4
 specifiers:
   typescript: ^4.6.3
   vitepress: 1.0.0-alpha.76
-  vitepress-theme-linear: ^0.2.2
+  vitepress-theme-linear: ^0.2.4
 
 devDependencies:
   typescript: 4.6.3
   vitepress: 1.0.0-alpha.76
-  vitepress-theme-linear: 0.2.2_typescript@4.6.3
+  vitepress-theme-linear: 0.2.4_typescript@4.6.3
 
 packages:
 
@@ -1121,8 +1121,8 @@ packages:
       fsevents: 2.3.2
     dev: true
 
-  /vitepress-theme-linear/0.2.2_typescript@4.6.3:
-    resolution: {integrity: sha512-I/zVwZhFBOGryKTJDFFBsc6qrOAHzSL3fheTSbsGeMFnzJz4jWPz+iZds0IlacBdJOHTmiP0aqGustf4dQ8NtA==}
+  /vitepress-theme-linear/0.2.4_typescript@4.6.3:
+    resolution: {integrity: sha512-8zAdfUGAkYaQt9pmTG5tyKRu2BwpXKwDyePfzST5hSyR3JLPAIkmjaVuEdcrsjrClUizLPaSo7SQjbm/GZH24g==}
     peerDependencies:
       typescript: ^4.6.3
     dependencies:

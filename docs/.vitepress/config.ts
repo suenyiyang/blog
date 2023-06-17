@@ -24,7 +24,14 @@ async function load() {
       ],
       favicon: 'https://shaun-logo.oss-cn-beijing.aliyuncs.com/avatar.jpg',
       googleId: 'G-F3PB7TDT3P',
-      walineServerURL: 'https://blog-comment-yysuen.vercel.app/'
+      waline: {
+        serverURL: 'https://blog-comment-yysuen.vercel.app/',
+        requiredMeta: ['nick', 'mail'],
+        reaction: ['/assets/images/thumbs_up.svg'],
+        locale: {
+          reactionTitle: '',
+        },
+      }
     }
   })
 }
