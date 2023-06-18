@@ -2,12 +2,13 @@
   "private": true,
   "scripts": {
     "dev": "vitepress dev docs",
-    "build": "vitepress build docs"
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
   },
   "license": "MIT",
   "devDependencies": {
     "typescript": "^4.6.3",
     "vitepress": "1.0.0-alpha.76",
-    "vitepress-theme-linear": "^0.2.4"
+    "vitepress-theme-linear": "^0.2.7"
   }
 }
