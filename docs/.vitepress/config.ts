@@ -23,7 +23,7 @@ async function load() {
         { name: '更新日志', link: '/log', icon: '' },
       ],
       favicon: '/favicon.svg',
-      googleId: 'G-F3PB7TDT3P',
+      googleId: process.env.GOOGLE_TAG,
       waline: {
         serverURL: 'https://blog-comment-yysuen.vercel.app/',
         requiredMeta: ['nick', 'mail'],
