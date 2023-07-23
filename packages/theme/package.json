@@ -1,12 +1,11 @@
 {
   "name": "vitepress-theme-linear",
   "version": "0.2.7",
-  "type": "module",
-  "packageManager": "pnpm@6.32.6",
+  "packageManager": "pnpm@8.6.9",
   "description": "Linear theme for vitepress.",
   "keywords": ["vitepress", "theme"],
   "license": "MIT",
-  "author": "syy11cn",
+  "author": "Yiyang Suen",
   "main": "src/index.ts",
   "exports": {
     ".": {

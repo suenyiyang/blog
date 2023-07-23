@@ -4,7 +4,7 @@
     "target": "ESNext",
     "strict": true,
     "jsx": "preserve",
-    "moduleResolution": "NodeNext",
+    "moduleResolution": "node",
     "skipLibCheck": true,
     "esModuleInterop": true,
     "baseUrl": ".",
