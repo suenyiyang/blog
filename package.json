@@ -1,7 +1,11 @@
 {
   "private": true,
   "scripts": {
-    "build:blog": "pnpm --filter=./packages/blog run build"
+    "build": "pnpm -r --filter=./packages/** run build",
+    "build:blog": "pnpm --filter=./packages/blog run build",
+    "build:theme": "pnpm --filter=./packages/theme run build",
+    "build:docs": "pnpm --filter=./packages/docs run build",
+    "dev": "pnpm -r --filter=./packages/** --parallel run dev"
   },
   "license": "MIT",
   "devDependencies": {
