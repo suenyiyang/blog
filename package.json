@@ -1,15 +1,13 @@
 {
   "private": true,
   "scripts": {
-    "dev": "vitepress dev docs",
-    "build": "vitepress build docs",
-    "serve": "vitepress serve docs"
+    "build:blog": "pnpm --filter=./packages/blog run build"
   },
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^20.4.1",
     "typescript": "^4.6.3",
     "vitepress": "1.0.0-alpha.76",
-    "vitepress-theme-linear": "^0.2.7"
+    "vitepress-theme-linear": "workspace:*"
   }
 }

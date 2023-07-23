@@ -7,6 +7,12 @@
     "moduleResolution": "node",
     "skipLibCheck": true,
     "esModuleInterop": true,
+    "baseUrl": "./",
+    "paths": {
+      "vitepress-theme-linear/*": ["packages/theme/src/*"],
+    },
+    "composite": true
   },
-  "include": ["./docs/.vitepress/*.ts"]
+  "include": ["./packages/**/*.ts", "./packages/**/*.vue"],
+  "exclude": ["**/dist/**", "node_modules"]
 }
