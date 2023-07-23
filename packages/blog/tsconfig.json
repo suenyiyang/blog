@@ -1,0 +1,8 @@
+{
+  "extends": ["../../tsconfig.json"],
+  "compilerOptions": {},
+  "references": [
+    { "path": "../theme/" }
+  ],
+  "include": ["./.vitepress/**/*.ts"]
+}

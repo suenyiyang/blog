@@ -1,7 +1,6 @@
 import { defineConfigWithTheme } from 'vitepress'
 import { ThemeLinearConfig, getPosts } from 'vitepress-theme-linear/config'
 
-
 async function load() {
   return defineConfigWithTheme<ThemeLinearConfig>({
     title: '孙轶扬的博客（Yiyang Suen\'s Blog）',

@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs"
+  },
+  "license": "MIT",
+  "devDependencies": {}
+}
