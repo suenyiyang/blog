@@ -1,0 +1,10 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "vitepress dev ./",
+    "build": "vitepress build ./"
+  },
+  "devDependencies": {
+    "vitepress-theme-linear": "workspace:*"
+  }
+}

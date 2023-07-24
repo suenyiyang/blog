@@ -1,0 +1,52 @@
+{
+  "name": "vitepress-theme-linear",
+  "version": "0.2.7",
+  "packageManager": "pnpm@8.6.9",
+  "description": "Linear theme for vitepress.",
+  "keywords": ["vitepress", "theme"],
+  "license": "MIT",
+  "author": "Yiyang Suen",
+  "main": "src/index.ts",
+  "exports": {
+    ".": {
+      "import": "./src/index.ts"
+    },
+    "./config": {
+      "import": "./dist/config.mjs",
+      "require": "./dist/config.js",
+      "types": "./dist/config.d.ts"
+    }
+  },
+  "files": [
+    "src",
+    "dist"
+  ],
+  "scripts": {
+    "dev": "pnpm build --watch",
+    "build": "rimraf dist && tsup src/config.ts --dts --format cjs,esm --minify --out-dir dist",
+    "lint": "eslint ./src/**/*.{ts,vue} --fix",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "typescript": "^4.6.3",
+    "vitepress": "^1.0.0-alpha.76"
+  },
+  "dependencies": {
+    "@vueuse/core": "^10.1.2",
+    "@vueuse/head": "^1.1.26",
+    "@waline/client": "^2.15.5",
+    "fs-extra": "^10.1.0",
+    "globby": "11.0.4",
+    "gray-matter": "^4.0.3"
+  },
+  "devDependencies": {
+    "@antfu/eslint-config": "^0.21.1",
+    "@types/fs-extra": "^9.0.13",
+    "rimraf": "^5.0.1",
+    "tsup": "^6.7.0",
+    "vue": "^3.2.33"
+  },
+  "eslintConfig": {
+    "extends": "@antfu"
+  }
+}
