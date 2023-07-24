@@ -10,8 +10,13 @@ const siteInfo = data.site.value
 <template>
   <header>
     <a class="title" href="/">
-      <img v-show="!isDark" class="logo" src="/logo.svg" :alt="siteInfo.title">
-      <img v-show="isDark" class="logo" src="/logo-dark.svg" :alt="siteInfo.title">
+      <div v-if="siteInfo.themeConfig.logo">
+        <img v-show="!isDark" class="logo" :src="siteInfo.themeConfig.logo.light" :alt="siteInfo.themeConfig.logo.alt">
+        <img v-show="isDark" class="logo" :src="siteInfo.themeConfig.logo.dark" :alt="siteInfo.themeConfig.logo.alt">
+      </div>
+      <span v-else class="titleText">
+        {{ siteInfo.title }}
+      </span>
     </a>
     <div class="control">
       <div class="navLine">
@@ -48,6 +53,13 @@ header {
   color: var(--deep-text);
   height: 3.2rem;
   object-fit: cover;
+}
+
+.titleText {
+  font-size: 2.4rem;
+  line-height: 3.2rem;
+  font-weight: 800;
+  color: var(--deep-text);
 }
 
 .control,
