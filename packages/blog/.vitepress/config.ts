@@ -30,6 +30,10 @@ async function load() {
         locale: {
           reactionTitle: '',
         },
+      },
+      logo: {
+        light: '/logo.svg',
+        dark: '/logo-dark.svg'
       }
     }
   })
