@@ -24,6 +24,12 @@ importers:
         specifier: workspace:*
         version: link:../theme
 
+  packages/docs:
+    devDependencies:
+      vitepress-theme-linear:
+        specifier: workspace:*
+        version: link:../theme
+
   packages/theme:
     dependencies:
       '@vueuse/core':
